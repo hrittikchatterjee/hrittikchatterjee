@@ -1,91 +1,57 @@
-# hrittikchatterjee
+<h1 align="center">Hrittik Chatterjee</h1>
 
-Polished demos & flagship projects — private by default. Contact for demos or private access.
+<p align="center"><b>Founder · Product Leader · Systems Engineer</b></p>
+<p align="center"><i>I build hard technology — and the products around it.</i></p>
 
-[![Website](https://img.shields.io/badge/website-demo-blue)](#)
-[![Contact](https://img.shields.io/badge/contact-email-blue)](#)
-[![Tech Stack](https://img.shields.io/badge/stack-Node.js%20|%20Python%20|%20TypeScript-lightgrey)](#)
+<p align="center">
+  <a href="https://hrittik.com"><img src="https://img.shields.io/badge/hrittik.com-0b0c0e?style=flat-square&logo=vercel&logoColor=2fe3c0" alt="website"></a>
+  <a href="mailto:hrittikchatterjee@gmail.com"><img src="https://img.shields.io/badge/email-0b0c0e?style=flat-square&logo=gmail&logoColor=2fe3c0" alt="email"></a>
+  <img src="https://img.shields.io/badge/Santa%20Cruz,%20CA-0b0c0e?style=flat-square" alt="location">
+</p>
 
 ---
 
-Elevator pitch
---------------
-I design and build high-impact backend and full-stack systems that power secure, scalable platforms. I focus on performance, reliability, and pragmatic product delivery.
+Autonomy & AI systems engineer and product builder. I work where machine learning meets real
+hardware and real users — from CUDA kernels to product roadmaps. Currently a CS student at
+**UC Santa Cruz**, building in parallel with school.
 
-Hero image / demo
------------------
-![App demo placeholder](./assets/hero-screenshot.png)
-<!-- Replace ./assets/hero-screenshot.png with a screenshot or GIF of a demo. -->
+### 🚩 Flagships
 
-Featured (Flagship) Projects
-----------------------------
-These are my flagship projects. The source code is private; reach out for a demo or private access.
+**[Forge](https://hrittik.com/#forge) — the OS for agentic hardware engineering.**
+LLM engineering agents take real actions across the toolchain — reasoning about a design,
+executing steps, handing work off to one another — while a cloud layer versions everything and
+keeps human + agent teams in sync. The OS for the agentic pathways that actually get engineering done.
 
-- Project Alpha (Private)
-  - One-liner: Real-time data pipeline for low-latency analytics.
-  - Tech: TypeScript · Node.js · Apache Kafka · PostgreSQL · Docker
-  - Impact: Cut processing latency by 60% and supported 50k concurrent sessions.
-  - Demo / Contact: Request walkthrough via email or schedule a screen-share.
+**[Argus](https://hrittik.com/#argus) — fully autonomous drones that navigate where GPS can't reach.**
+Natural-language mission in → an on-device LLM commander plans and executes → vision-inertial
+odometry fused with satellite-imagery localization holds position without drift → the aircraft
+detects, returns to launch, and writes its own report. The entire brain runs on a single **$200
+Jetson Orin Nano**; PX4 owns flight and hardware failsafe. `0 humans in the loop`.
 
-- Project Beta (Private)
-  - One-liner: Multi-tenant authorization microservice with adaptive policies.
-  - Tech: Go · gRPC · Redis · Vault
-  - Impact: Centralized auth reduced integration effort across product teams by 4x.
+### 🛠 Also building
 
-Public demos & examples
------------------------
-Safe-to-share artifacts demonstrating patterns used in flagship projects:
+- **Terrain-Relative Navigation** — GPS-denied absolute positioning via DINOv2 + FAISS satellite-tile matching.
+- **Sentinel** — backpack-deployable tactical C2 (MAVLink over LoRa, ImGui, AIS/ADS-B/OSINT fusion + LLM tools).
+- **LLM-Driven Trading Bot** — local Llama 3.1 + classical technical analysis trading through Interactive Brokers, under a real risk manager.
+- **WebGL 3D Engine** — a rendering engine written from scratch in JavaScript (OBJ/glTF pipeline).
 
-- Demo: Minimal auth mock — sanitized example showing patterns (link or repo).
-- Blog / Case study: Short writeup with architecture diagram (link).
+### 💼 Experience
 
-What I share (and what I don't)
--------------------------------
-- I do: screenshots, architecture diagrams, sanitized code examples, and demos.
-- I don't: expose private repo code, internal keys, or customer data.
+| | |
+|---|---|
+| **Founder & Systems Engineer** | Argus Defense Systems · 2025–present |
+| **President, Product** | Verix Credential (biometric payments) |
+| **Software Engineer Intern** | IBM — DataStax team |
+| **B.S. Computer Science** | UC Santa Cruz · expected 2028 |
 
-Quick links
------------
-- Demo video — placeholder
-- Contact — your-email@example.com
-- LinkedIn / Portfolio — link
+### 🧰 Stack
 
-How to request access
----------------------
-If you want to see a private project codebase or a live demo, email me at your-email@example.com or open an issue in this repo titled "Request demo: <project name>".
+`Python` · `C / C++` · `TypeScript` · `ROS2` · `PX4 / MAVLink` · `Jetson / Edge AI`
+`Computer Vision (DINOv2 · SuperPoint · YOLO)` · `VIO / SLAM` · `On-device LLMs` · `FAISS`
+`CUDA / TensorRT` · `Distributed Systems` · `Product Strategy`
 
-Technical appendix (optional)
------------------------------
-High-level architecture (example)
-- Ingest -> Stream processor (Kafka/Go) -> Enrichment -> OLAP store (ClickHouse)
-- Observability: Prometheus + Grafana
-- Deployment: Docker Compose for dev, Kubernetes for production
+---
 
-Sanitized snippet (public demo)
-```js
-// demo/auth-sample.js — minimal, public-safe pattern
-// This example demonstrates a small token-check pattern (no secrets).
-function validateToken(token) {
-  if (!token) return false;
-  // placeholder: verify signature with public key (not shown)
-  return token.startsWith("demo-");
-}
-module.exports = { validateToken };
-```
+<sub>Most flagship source is private (defense / early-stage) — happy to walk through it, just reach out.</sub>
 
-Assets & file structure
------------------------
-- /README.md (this file)
-- /assets/hero-screenshot.png
-- /assets/project-alpha-01.png
-- /assets/project-beta-01.png
-
-Design & copy tips
-------------------
-- Keep punchy one-liners and measurable impacts (metrics are persuasive).
-- Use 1–2 screenshots or a short GIF (3–6s loop).
-- Include a short CTA (email or "Request demo" issue).
-
-Footer
-------
-Thanks for visiting — reach out for demos or collaboration.
+<p align="center"><a href="https://hrittik.com"><b>hrittik.com</b></a></p>
