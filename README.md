@@ -31,6 +31,7 @@ Jetson Orin Nano**; PX4 owns flight and hardware failsafe. `0 humans in the loop
 ### 🛠 Also building
 
 - **Terrain-Relative Navigation** — GPS-denied absolute positioning via DINOv2 + FAISS satellite-tile matching.
+- **Verix Credential** — face-authenticated payments backend: live card authorization across Stripe and Square POS terminals, made idempotent so a cashier retry can't double-charge; exactly-once token consumption in PostgreSQL, verified under concurrent load.
 - **Sentinel** — backpack-deployable tactical C2 (MAVLink over LoRa, ImGui, AIS/ADS-B/OSINT fusion + LLM tools).
 - **LLM-Driven Trading Bot** — local Llama 3.1 + classical technical analysis trading through Interactive Brokers, under a real risk manager.
 - **WebGL 3D Engine** — a rendering engine written from scratch in JavaScript (OBJ/glTF pipeline).
@@ -40,15 +41,16 @@ Jetson Orin Nano**; PX4 owns flight and hardware failsafe. `0 humans in the loop
 | | |
 |---|---|
 | **Founder & Systems Engineer** | Argus Defense Systems · 2025–present |
-| **President, Product** | Verix Credential (biometric payments) |
+| **President of Technology and Product** | Verix Credential (biometric payments) |
 | **Software Engineer Intern** | IBM — DataStax team |
-| **B.S. Computer Science** | UC Santa Cruz · expected 2028 |
+| **B.S. Computer Science** | UC Santa Cruz · expected December 2027 |
 
 ### 🧰 Stack
 
 `Python` · `C / C++` · `TypeScript` · `ROS2` · `PX4 / MAVLink` · `Jetson / Edge AI`
 `Computer Vision (DINOv2 · SuperPoint · YOLO)` · `VIO / SLAM` · `On-device LLMs` · `FAISS`
 `CUDA / TensorRT` · `Distributed Systems` · `Product Strategy`
+`Go` · `Rust` · `PostgreSQL` · `FastAPI` · `Payments / idempotency` · `Docker`
 
 ---
 
