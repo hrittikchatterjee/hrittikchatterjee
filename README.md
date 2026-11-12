@@ -30,7 +30,7 @@ Jetson Orin Nano**; PX4 owns flight and hardware failsafe. `0 humans in the loop
 
 ### 🛠 Also building
 
-- **Terrain-Relative Navigation** — GPS-denied absolute positioning via DINOv2 + FAISS satellite-tile matching.
+- **Terrain-Relative Navigation** — satellite place recognition for GPS-denied flight: DINOv2-ViT-S/14 fine-tuned with contrastive loss on 198K satellite tiles, searched through a FAISS index of 871K CONUS locations. In flight, absolute fixes currently come from template + SIFT matching against cached tiles.
 - **Verix Credential** — face-authenticated payments backend: card authorization across Stripe and Square point-of-sale (sandbox), made idempotent so a cashier retry can't double-charge; single-use tokens consumed atomically in PostgreSQL, verified with a 12-thread contention test.
 - **Sentinel** — backpack-deployable tactical C2 (MAVLink over LoRa, ImGui, AIS/ADS-B/OSINT fusion + LLM tools).
 - **LLM-Driven Trading Bot** — local Llama 3.1 + classical technical analysis paper trading through Interactive Brokers, under a risk manager with hard position and loss limits.
@@ -48,7 +48,7 @@ Jetson Orin Nano**; PX4 owns flight and hardware failsafe. `0 humans in the loop
 
 ### 🧰 Stack
 
-`Python` · `Go` · `TypeScript` · `C++` · `ROS2` · `PX4 / MAVLink` · `Jetson / Edge AI`
+`Python` · `C / C++` · `Rust` · `Go` · `TypeScript` · `ROS2` · `PX4 / MAVLink` · `Jetson / Edge AI`
 `Computer Vision (DINOv2 · SuperPoint · YOLO)` · `VIO / SLAM` · `On-device LLMs` · `FAISS`
 `TensorRT` · `Distributed Systems` · `LLM evaluation`
 `SQL` · `PostgreSQL` · `FastAPI` · `Payments / idempotency` · `Docker`
