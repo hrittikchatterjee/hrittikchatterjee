@@ -1,6 +1,6 @@
 <h1 align="center">Hrittik Chatterjee</h1>
 
-<p align="center"><b>Founder · Product Leader · Systems Engineer</b></p>
+<p align="center"><b>Software Engineer · CS @ UC Santa Cruz</b></p>
 <p align="center"><i>I build hard technology — and the products around it.</i></p>
 
 <p align="center">
@@ -11,8 +11,8 @@
 
 ---
 
-Autonomy & AI systems engineer and product builder. I work where machine learning meets real
-hardware and real users — from CUDA kernels to product roadmaps. Currently a CS student at
+Software engineer working on autonomy and AI systems: sensor pipelines on edge hardware, the
+backend services around them, and the AI tooling that ties them together. Currently a CS student at
 **UC Santa Cruz**, building in parallel with school.
 
 ### 🚩 Flagships
@@ -31,26 +31,27 @@ Jetson Orin Nano**; PX4 owns flight and hardware failsafe. `0 humans in the loop
 ### 🛠 Also building
 
 - **Terrain-Relative Navigation** — GPS-denied absolute positioning via DINOv2 + FAISS satellite-tile matching.
-- **Verix Credential** — face-authenticated payments backend: live card authorization across Stripe and Square POS terminals, made idempotent so a cashier retry can't double-charge; exactly-once token consumption in PostgreSQL, verified under concurrent load.
+- **Verix Credential** — face-authenticated payments backend: card authorization across Stripe and Square point-of-sale (sandbox), made idempotent so a cashier retry can't double-charge; single-use tokens consumed atomically in PostgreSQL, verified with a 12-thread contention test.
 - **Sentinel** — backpack-deployable tactical C2 (MAVLink over LoRa, ImGui, AIS/ADS-B/OSINT fusion + LLM tools).
-- **LLM-Driven Trading Bot** — local Llama 3.1 + classical technical analysis trading through Interactive Brokers, under a real risk manager.
+- **LLM-Driven Trading Bot** — local Llama 3.1 + classical technical analysis paper trading through Interactive Brokers, under a risk manager with hard position and loss limits.
+- **[Nexus](https://github.com/hrittikchatterjee/nexus-agentic)** — agentic mission control: a Claude planner splits a typed or spoken request across a fleet of role-specialized agents, with human escalation, an audit log, per-run cost tracking, and a 3D control room.
 - **WebGL 3D Engine** — a rendering engine written from scratch in JavaScript (OBJ/glTF pipeline).
 
 ### 💼 Experience
 
 | | |
 |---|---|
-| **Founder & Systems Engineer** | Argus Defense Systems · 2025–present |
+| **Founder & Software Lead** | Argus Defense Systems · 2025–present |
 | **President of Technology and Product** | Verix Credential (biometric payments) |
-| **Software Engineer Intern** | IBM — DataStax team |
+| **Software Developer Intern** | IBM (DataStax) · Jun–Aug 2026 |
 | **B.S. Computer Science** | UC Santa Cruz · expected December 2027 |
 
 ### 🧰 Stack
 
-`Python` · `C / C++` · `TypeScript` · `ROS2` · `PX4 / MAVLink` · `Jetson / Edge AI`
+`Python` · `Go` · `TypeScript` · `C++` · `ROS2` · `PX4 / MAVLink` · `Jetson / Edge AI`
 `Computer Vision (DINOv2 · SuperPoint · YOLO)` · `VIO / SLAM` · `On-device LLMs` · `FAISS`
-`CUDA / TensorRT` · `Distributed Systems` · `Product Strategy`
-`Go` · `Rust` · `PostgreSQL` · `FastAPI` · `Payments / idempotency` · `Docker`
+`TensorRT` · `Distributed Systems` · `LLM evaluation`
+`SQL` · `PostgreSQL` · `FastAPI` · `Payments / idempotency` · `Docker`
 
 ---
 
